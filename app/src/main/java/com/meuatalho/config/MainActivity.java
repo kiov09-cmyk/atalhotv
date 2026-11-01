@@ -28,5 +28,6 @@ public class MainActivity extends Activity {
             }
         }
         finish();
+        overridePendingTransition(0, 0);
     }
 }
